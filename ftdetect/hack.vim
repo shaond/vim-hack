@@ -11,7 +11,7 @@
 "
 au BufRead,BufNewFile *.hack
   \ setl filetype=hack |
-  \ setl syntax=hack
+  \ setl syntax=php
 
 au BufRead,BufNewFile *.hhi,*.hck
   \ setl filetype=hack |
